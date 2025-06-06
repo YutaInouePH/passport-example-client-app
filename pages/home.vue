@@ -9,7 +9,7 @@ definePageMeta({
 
 const { $api } = useNuxtApp()
 
-$api.get('user')
+$api.get('api/user')
     .then((response: any) => {
       console.log(response.data)
     })
