@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     endpoints: {
       authorization: 'http://localhost:8002/oauth/authorize',
       token: 'http://localhost:8002/oauth/token',
-      userInfo: 'http://localhost:8002/api/users/me',
+      userInfo: 'http://localhost:8002/api/user',
       logout: 'http://localhost:8002/oauth/logout'
     },
     clientId: '019743a8-72be-7116-a0f3-2d0732d2984f',
